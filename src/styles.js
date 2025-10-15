@@ -14,7 +14,6 @@ export const Container = styled.div`
 export const Content = styled.div`
   background-color: #FFF;
   width: 80%;
-  min-height: 350px;
   border-radius: 16px;
   padding: 12px;
 `;

@@ -6,4 +6,7 @@ export const ButtonContainer = styled.button`
   border-radius: 8px;
   background: #ffffff;
   background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 50%, rgba(255, 255, 255, 1) 100%);
+  flex: 1;
+  margin: 2px;
+  font-weight: 700;
 `

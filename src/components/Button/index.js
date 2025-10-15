@@ -1,9 +1,11 @@
 import { ButtonContainer } from "./styles";
 
-const Button = () => {
+const Button = (props) => {
+  const { label, onClick } = props;
+  
   return (
-    <ButtonContainer>
-      1
+    <ButtonContainer onClick={onClick}>
+      {label}
     </ButtonContainer>
   );
 }
