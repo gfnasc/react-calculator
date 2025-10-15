@@ -21,7 +21,8 @@ export const InputContainer = styled.div`
     border: 0;
     float: right;
     clear: both;
-    font-size: 24px;
+    font-size: 42px;
+    font-weight: 700;
     text-align: right;
     outline: none
   }

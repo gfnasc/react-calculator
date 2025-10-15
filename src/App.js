@@ -1,13 +1,16 @@
-import {Container, Content, Title, Row, Column} from "./styles";
+import {Container, Content, Title, Row} from "./styles";
 import Input from "./components/Input";
 import Button from "./components/Button";
+import { useState } from "react";
 
 const App = () => {
+  const [currentNumber, setCurrentNumber] = useState("0");
+
   return (
     <Container>
       <Title>React Calculator</Title>
       <Content>
-        <Input />
+        <Input value={currentNumber} />
         <Row>
             <Button label="x" />
             <Button label="÷" />
