@@ -58,7 +58,7 @@ const App = () => {
     <Container>
       <Title>React Calculator</Title>
       <Content>
-        <Input value={currentNumber} />
+        <Input value={currentNumber === '0' && operation !== '' ? firstNumber : currentNumber} />
         <Row>
             <Button label="x" onClick={() => handleOperation('x')} />
             <Button label="÷" onClick={() => handleOperation('÷')} />
